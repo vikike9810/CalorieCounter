@@ -1,0 +1,28 @@
+<resources>
+    <string name="name">Name</string>
+    <string name="ok">OK</string>
+    <string name="Megsem">Cancel</string>
+    <string name="uj">New Item</string>
+    <string name="pop1">You havent eaten anything today!</string>
+    <string name="pop2">The Diary is empty!</string>
+    <string name="kcal"> kcal</string>
+    <string name="ossz">Sum: </string>
+    <string name="Reggeli">Breakfast</string>
+    <string name="Ebed">Lunch</string>
+    <string name="Vacsora">Dinner</string>
+    <string name="Napi">Daily meal</string>
+    <string name="kiert">Evaluate</string>
+    <string name="etk">Meal</string>
+    <string name="menny">Amount in gram:</string>
+    <string name="kalo">Calorie / 100g :</string>
+    <string name="vissza">Back</string>
+    <string name="AppName">CalorieCounter</string>
+    <string name="napl">Diary</string>
+    <string name="mindet_t_r_l">Delete All</string>
+
+    <string-array name="category_items">
+        <item>Breakfast</item>
+        <item>Lunch</item>
+        <item>Dinner</item>
+    </string-array>
+</resources>

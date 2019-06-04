@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="16dip"
+    android:layout_marginTop="10dp"
+    android:background="#98FB98">
+
+    <ImageView
+        android:id="@+id/ItemIconImageView"
+        android:layout_width="64dip"
+        android:layout_height="64dip"
+        android:layout_marginLeft="8dip"
+        android:padding="8dip" />
+
+    <LinearLayout
+        android:layout_width="0dip"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginLeft="8dip"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/ItemNameTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Apple"/>
+
+        <TextView
+            android:id="@+id/ItemCategoryTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="Reggeli"/>
+
+        <TextView
+            android:id="@+id/ItemKcalTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            tools:text="200 Kcal"/>
+    </LinearLayout>
+
+    <ImageButton
+        android:id="@+id/ItemRemoveButton"
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center_vertical"
+        android:scaleType="fitXY"
+        android:src="@drawable/ic_delete_grey600_48dp" />
+
+</LinearLayout>

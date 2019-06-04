@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest  package="hu.aut.bme.kaloriaszamlalo"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/apple"
+        android:label="@string/AppName"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:name=".KaloriaApplication">
+        <activity
+            android:name=".Today.MainActivity"
+            android:label="@string/AppName"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+        <activity android:name=".Summa"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <activity android:name=".Naptar"
+            android:theme="@style/AppTheme.NoActionBar"/>
+
+        <meta-data android:name="DATABASE" android:value="kaloriaszamlalo20.db" />
+        <meta-data android:name="VERSION" android:value="2" />
+        <meta-data android:name="QUERY_LOG" android:value="true" />
+        <meta-data android:name="DOMAIN_PACKAGE_NAME" android:value="hu.aut.bme.kaloriaszamlalo" />
+    </application>
+
+</manifest>
