@@ -1,5 +1,5 @@
 # CalorieCounter
-CalorieCounter Application
+
 
 <b>Kalória számláló applikáció:</b>
 
