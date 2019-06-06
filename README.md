@@ -1,7 +1,7 @@
 # CalorieCounter
 CalorieCounter Application
 
-Kalória számláló applikáció:
+<b>Kalória számláló applikáció:</b>
 
 -étkezések felvétele
 
